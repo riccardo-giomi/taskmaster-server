@@ -1,0 +1,7 @@
+Metrics/MethodLength:
+  Exclude:
+    - 'app/controllers/graphql_controller.rb'
+
+Layout/LineLength:
+  Exclude:
+    - 'config/initializers/devise.rb'

@@ -1,5 +1,7 @@
 
-inherit_from: .rubocop_todo.yml
+inherit_from:
+  - .rubocop_todo.yml
+  - .rubocop_todo_custom.yml
 
 require: rubocop-rails
 
