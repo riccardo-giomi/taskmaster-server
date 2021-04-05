@@ -6,9 +6,8 @@ module Types
 
     # Add root-level fields here.
     # They will be entry points for queries on your schema.
-
-    field :tasks, [Types::TaskType], null: false do
-      description 'A query that retunrs all the tasks.'
+    field :tasks, [TaskType], null: false do
+      description 'A query that returns all the tasks.'
     end
 
     field :tasksCount, Integer, null: false do

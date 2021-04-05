@@ -12,6 +12,10 @@ module Types
       description "The task's body/description."
     end
 
+    field :user_id, Integer, null: false do
+      description 'The id of the user assigned to this task.'
+    end
+
     field :user, UserType, null: false do
       description 'The user assigned to this task.'
     end
